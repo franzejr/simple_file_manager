@@ -1,0 +1,15 @@
+{
+    arquivos:{
+        arquivo:[
+            {
+                nome:'Artigo 1',
+                link:'http://semanticommunity.info/@api/deki/files/4686/=10.1.1.115.9584.pdf'
+            },
+            {
+                nome:'Artigo 2',
+                link:'http://ceur-ws.org/Vol-40/maedche+staab.pdf'
+            }
+        ]
+    }
+}
+

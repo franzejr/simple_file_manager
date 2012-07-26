@@ -1,0 +1,25 @@
+{
+        "arquivo":[
+            {
+                "nome":"Artigo 1",
+                "link":"http://semanticommunity.info/@api/deki/files/4686/=10.1.1.115.9584.pdf"
+            },
+            {
+                "nome":"Artigo 2",
+                "link":"http://ceur-ws.org/Vol-40/maedche+staab.pdf"
+            },
+            {
+                "nome":"Artigo 3",
+                "link":"http://classweb.gmu.edu/kersch/infs770/Semantic_Web_16_2/Semantic%20Web.pdf"
+            },
+            {
+                "nome":"Artigo 3",
+                "link":"http://classweb.gmu.edu/kersch/infs770/Semantic_Web_16_2/Semantic%20Web.pdf"
+            },
+            {
+                "nome":"Artigo 3",
+                "link":"http://classweb.gmu.edu/kersch/infs770/Semantic_Web_16_2/Semantic%20Web.pdf"
+            }
+        ]
+}
+

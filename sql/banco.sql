@@ -5,7 +5,7 @@ CREATE TABLE usuario (
 	id_usu INT AUTO_INCREMENT,
 	nome VARCHAR(255) NOT NULL,
 	apelido VARCHAR(255),
-	cpf INT,
+	cpf VARCHAR(100),
 	email VARCHAR(100),
 	endereco VARCHAR(255),
 	complemento VARCHAR(255),

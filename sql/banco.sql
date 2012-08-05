@@ -21,6 +21,7 @@ CREATE TABLE arquivo (
 	nome VARCHAR(255) NOT NULL,
 	caminho VARCHAR(255),
 	user INT,
+	descricao VARCHAR(255),
 	PRIMARY KEY (id_arq),
 	CONSTRAINT fk_arq_usu FOREIGN KEY (user) REFERENCES usuario(id_usu)
 ) ENGINE = InnoDB;

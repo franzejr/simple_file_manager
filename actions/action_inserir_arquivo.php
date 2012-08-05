@@ -1,8 +1,10 @@
 <?php
-
+include ("../models/arquivo.php");
+include ("../dao/arquivoDAO.php");
 //Pegando os dados da requisicao
 
 	$titulo = $_POST["titulo"];
+	$descricao = $_POST["descricao"];
 
 //Trabalhando com o Arquivo
   if ($_FILES["file"]["error"] > 0)
@@ -31,7 +33,12 @@
 			echo "Houve um erro ao fazer o upload do seu arquivo, por favor, tente novamente!";
 		}
       echo "Gravado em: " . "uploads/" . $_FILES["file"]["name"];
+	  $caminho = $_FILES['file']['name'];
       }
     }
+	
+	// Arquivo arquivo = new Arquivo($titulo,$caminho,1,$descricao);
+	// 	ArquivoDAO arquivodao = new ArquivoDAO();
+	// 	arquivodao->insert($arquivo);
 
 ?>

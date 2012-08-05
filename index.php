@@ -41,12 +41,11 @@
 	</div>
 					<?
 						
-						if ($_SESSION[$status] == "usuario") { 
-							redirect("inicio.php"); 
+						if ($_SESSION[status] == "usuario") { 
+							redirect("layoutA.php"); 
 						}
 						else { 
 							include("formularios/login.php"); 
-							
 							}		
 					?>
 	  				

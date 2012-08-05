@@ -36,7 +36,7 @@
 
 	<div id="contato">
 		<h3>Cadastro de Novo Usuário</h3>
-		<form method="post" action="recebe.php" onSubmit="return validarCampos();">
+		<form method="post" action="actions/action_inserir_usuario.php" onSubmit="return validarCampos();" accept-charset="UTF-8">
 			<fieldset>
 				<legend>Dados Pessoais</legend>
 				<div>
@@ -72,6 +72,20 @@
 				
 				<div>
 					<label>Telefone 2</label> <input onkeypress="mascara(this,mascaraTel)" name="telefone2" maxlength="14" id="telefone2" type="text" />
+				</div>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Informações de Login</legend>
+				<div>
+					<label>Usuário</label> <input name="usuario" id="usuario" type="text" />
+				</div>		
+				<div>
+					<label>Senha</label> <input name="senha" id="senha" type="password" />
+				</div>
+				<div>
+					<label>Senha</label><input name="senha2" id="senha2" type="password" />
+					<small>Confirme sua senha</small>
 				</div>
 			</fieldset>
 			

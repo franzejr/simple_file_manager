@@ -1,8 +1,7 @@
 	
 		<div id="login">
 			
-			<form action="confirma/login.php" method="post">
-			
+			<form action="actions/action_login.php" method="post">
 					<div>
 						<label for="cpf">Usuário: 
 							    <input type="text" name="usuario" id="usuario" maxlength="20" size="20" />

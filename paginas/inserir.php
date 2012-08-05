@@ -1,6 +1,6 @@
 <link href='contact.css' rel='stylesheet' type='text/css' />
 <div id="contato">
-	<form method="post" action="actions/action_inserir.php" enctype="multipart/form-data">
+	<form method="post" action="actions/action_inserir_arquivo.php" enctype="multipart/form-data">
 			<legend>Inserindo um Novo Arquivo</legend>
 			<div>
 				<label>Título para o Arquivo</label> <input name="titulo" id="titulo" type="text" />

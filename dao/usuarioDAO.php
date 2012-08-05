@@ -10,7 +10,7 @@ class UsuarioDAO{
 	function insert($usuario)
 	{
 			try{
-				$query = "INSERT INTO usuario (id_usu, nome,apelido,cpf,email,endereco,complemento,telefone,telefone2) VALUES ($usuario->_id_usu,'$usuario->_nome','$usuario->_apelido','$usuario->_cpf','$usuario->_email','$usuario->_endereco','$usuario->_complemento',$usuario->_telefone,$usuario->_telefone2)";
+				$query = "INSERT INTO usuario (nome,apelido,cpf,email,endereco,complemento,telefone,telefone2,usuario,senha) VALUES ('$usuario->_nome','$usuario->_apelido','$usuario->_cpf','$usuario->_email','$usuario->_endereco','$usuario->_complemento','$usuario->_telefone','$usuario->_telefone2','$usuario->_usuario','$usuario->_senha')";
 				$query_result = mysql_query($query) or die(mysql_error());
 			}
 			catch(Exception $e){

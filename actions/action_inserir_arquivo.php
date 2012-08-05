@@ -1,4 +1,5 @@
 <?php
+
 //Pegando os dados da requisicao
 
 	$titulo = $_POST["titulo"];

@@ -9,8 +9,10 @@ CREATE TABLE usuario (
 	email VARCHAR(100),
 	endereco VARCHAR(255),
 	complemento VARCHAR(255),
-	telefone INT,
-	telefone2 INT,
+	telefone VARCHAR(100),
+	telefone2 VARCHAR(100),
+	usuario VARCHAR(100) NOT NULL,
+	senha VARCHAR(100) NOT NULL,
 	PRIMARY KEY (id_usu)
 ) ENGINE = InnoDB;
 

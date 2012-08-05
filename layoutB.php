@@ -9,17 +9,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<title>Trab 1 - Template</title>
+	<title>Trab 1 - Template B</title>
 	<meta http-equiv="content-type" 
 		content="text/html;charset=utf-8" />
 	<meta content='text/html; charset=UTF-8' http-equiv='content-type' /> 
-    <link href='A.css' rel='stylesheet' type='text/css' />
-    
+    <link href='B.css' rel='stylesheet' type='text/css' />
     
     <script type="text/javascript" src="cookies.js"></script>
     <script type="text/javascript" src="acessibilidade.js"></script>
     <script type="text/javascript">
 
+    
     //Funcao de inicializacao para saber o cookie
     function init() {
 		setContraste();
@@ -27,6 +27,7 @@
 	}
 	
 	window.onload = init; 
+    
    
 	var myRequest = new XMLHttpRequest();
 	  function callAjax1() {
@@ -60,7 +61,7 @@
 		         for(var i = 0; i < json.arquivo.length; i++){
 		        	writeLine(json.arquivo[i].nome,json.arquivo[i].link);
 		        }
-		       	endListagem();
+		       	//endListagem();
 		        
 		        console.log("we made it");
 		    } else {
@@ -72,16 +73,10 @@
 	  
 	  function startListagem(){
 	  	var listagem = 	document.getElementById('listagem');
-	  	listagem.innerHTML = "</ul>";
+	  	listagem.innerHTML = "";
 	  }
-	  
-	  function endListagem(){
-	  	var listagem = 	document.getElementById('listagem');
-	  	listagem.innerHTML += "</ul>";
-	  }
-	  
+	 
 	  function writeLine(nome, link){
-	  
 	  	var listagem = document.getElementById('listagem');
 		var li_node = document.createElement('li');
 		li_node.innerHTML += "<span class='icon'></span>"
@@ -95,12 +90,9 @@
 		li_node.appendChild(link_node);
 
 		listagem.appendChild(li_node);
-	  	
 	  }
-	  
-
     </script>
-
+    
 </head>
 
 <body>
@@ -109,33 +101,10 @@
 </div>
 
 <div id="contentWrapper">
-	<? echo $_SESSION['nome']; ?>
 	<div id="menu">
 		<? include('includes/menu.php') ?>
 	</div>
-	<div id="botoes">
-		<button onClick="increaseFontSize(1)" >Aumentar Letra </button>
-		<button onClick="increaseFontSize(-1)" >Diminuir Letra </button>
-		<button onClick="mudarContraste()" >Mudar Contraste </button>
-		<button onClick="callAjax1()" >Carregar Arquivos Cat X </button>
-		<button onClick="callAjax2()" >Carregar Arquivos Cat Y </button>
-		<button onClick="limparAcessibilidade()" > Limpar Acessibilidade </button>
-	</div>
-
-
-	<div>
-		<ul id="listagem">
-			<li><span class="icon"></span><a href="view.html">Dados</a></li>
-			<li><span class="icon"></span><a href="view.html">Dados</a></li>
-			<li><span class="icon"></span><a href="view.html">Dados</a></li>
-			<li><span class="icon"></span><a href="view.html">Dados</a></li>
-			<li><span class="icon"></span><a href="view.html">Dados</a></li>
-			<li><span class="icon"></span><a href="view.html">Dados</a></li>
-			<li><span class="icon"></span><a href="view.html">Dados</a></li>
-			<li><span class="icon"></span><a href="view.html">Dados</a></li>
-			<li><span class="icon"></span><a href="view.html">Dados</a></li>
-		</ul>
-	</div>
+	<? include('includes/content.php') ?>
 </div>
 <div id="validator">
 	<p>

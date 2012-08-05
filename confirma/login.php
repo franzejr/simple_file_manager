@@ -6,7 +6,7 @@ include("../funcoes.php");
 if($_POST['usuario'] =='teste' && $_POST['senha']=="teste"){
 	
 	$_SESSION['nome'] = "Teste";
-	$_SESSION['senha'] = teste;
+	$_SESSION['senha'] = "teste";
 	$_SESSION['status'] = "usuario";
 	redirect("../inicio.php");
 	

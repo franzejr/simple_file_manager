@@ -50,9 +50,6 @@
 							}		
 					?>
 	  				
-	  			
-	  			
-	  			
 <div id="validacao"></div>
 </div>
 

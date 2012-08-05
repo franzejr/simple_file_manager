@@ -6,8 +6,11 @@
 			</div>
 			<li><a href="seg/logoff.php">Logoff</a></li></li>
 			<li><a href="#">Home</a></li>
-			<li><a href="indexA.php">Layout A</a></li>
-			<li><a href="indexB.php">Layout B</a></li>
+			<li><a href="layoutA.php">Layout A</a></li>
+			<li><a href="?pag=inserir">Inserir Arquivo</a></li>
+			<li><a href="?pag=listar">Listar Arquivos</a></li>
+			<li><a href="?pag=listar">Ver últimos Downloads</a></li>
+			<li><a href="layoutB.php">Layout B</a></li>
 			<li><a href="#">Contato</a></li>
 		</ul>
 		

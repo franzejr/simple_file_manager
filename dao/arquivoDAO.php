@@ -2,7 +2,7 @@
 /*
 * Arquivo DAO
 */
-include_once("../banco/conecta.php");
+
 class ArquivoDAO{
 
 	function insert($nome,$caminho,$user,$descricao)

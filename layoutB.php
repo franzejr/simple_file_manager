@@ -101,6 +101,10 @@
 	<ul>
 		<li><a href="layoutA.php">Layout A</a></li>
 		<li><a href="layoutB.php">Layout B</a></li>
+		<button onClick="increaseFontSize(1)" >Aumentar Letra </button>
+		<button onClick="increaseFontSize(-1)" >Diminuir Letra </button>
+		<button onClick="mudarContraste()" >Mudar Contraste </button>
+		<button onClick="limparAcessibilidade()" > Limpar Acess. </button>
 	</ul>
 </div>
 

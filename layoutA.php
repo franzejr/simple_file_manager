@@ -20,96 +20,46 @@
     <script type="text/javascript" src="acessibilidade.js"></script>
     <script type="text/javascript">
 
-    //Funcao de inicializacao para saber o cookie
-    function init() {
-		setContraste();
-		increaseFontSize(Cookies['letra']);
-	}
-	
-	window.onload = init; 
-   
-	var myRequest = new XMLHttpRequest();
-	  function callAjax1() {
-	  	var url = "arquivos.json";
-	  	
-		 myRequest.open("GET", url, true);
-		 myRequest.onreadystatechange = responseAjax;
-		 myRequest.setRequestHeader("Cache-Control", "no-cache");
-		 myRequest.send(null);
-	  }
-
-	  function callAjax2() {
-	  	var url = "arquivosB.json";
-	  	
-		 myRequest.open("GET", url, true);
-		 myRequest.onreadystatechange = responseAjax;
-		 myRequest.setRequestHeader("Cache-Control", "no-cache");
-		 myRequest.send(null);
-	  }
-
-	  function responseAjax() {
-		 if(myRequest.readyState == 4) {
-		    if(myRequest.status == 200) {
-		        result = myRequest.responseText;
-		        //alert(result);
-		        //console.log(result);
-		        var json = JSON.parse(result);
-		        //document.getElementById('resultado').innerHTML = json.arquivos.arquivo[0].nome;
-		        //writeLine(result);
-		        startListagem();
-		         for(var i = 0; i < json.arquivo.length; i++){
-		        	writeLine(json.arquivo[i].nome,json.arquivo[i].link);
-		        }
-		       	endListagem();
-		        
-		        console.log("we made it");
-		    } else {
-		        console.log( " An error has occurred: " + myRequest.statusText);
-		    }
-		 }
-	  }
-	  
-	  
-	  function startListagem(){
+		function startListagem(){
 	  	var listagem = 	document.getElementById('listagem');
 	  	listagem.innerHTML = "</ul>";
 	  }
-	  
+
 	  function endListagem(){
 	  	var listagem = 	document.getElementById('listagem');
 	  	listagem.innerHTML += "</ul>";
 	  }
-	  
+
 	  function writeLine(nome, link){
-	  
+
 	  	var listagem = document.getElementById('listagem');
 		var li_node = document.createElement('li');
 		li_node.innerHTML += "<span class='icon'></span>"
-	
+
 			//Criando um elemento de link
 		  	var link_node = document.createElement('a');
 		  	var tn = document.createTextNode(nome);
 			link_node.appendChild(tn);
 		  	link_node.setAttribute("href",link);
-	  	
+
 		li_node.appendChild(link_node);
 
 		listagem.appendChild(li_node);
-	  	
+
 	  }
-	  
-
-    </script>
-
+	
+	</script>
 </head>
 
 <body>
 <div id="headerWrapper">
 	<h1>Gerenciamento de Arquivos</h1>
+	<ul>
+		<li><a href="layoutA.php">Layout A</a></li>
+		<li><a href="layoutB.php">Layout B</a></li>
+	</ul>
 </div>
-
 <div id="contentWrapper">
-	<? echo $_SESSION['nome']; ?>
 	<div id="menu">
 		<? include('includes/menu.php') ?>
 	</div>

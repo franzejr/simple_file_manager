@@ -1,5 +1,4 @@
 <?php
-
 class Arquivo{
 	public $_nome;
 	public $_caminho;

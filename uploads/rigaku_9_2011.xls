@@ -1,0 +1,850 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+    <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+        <DownloadComponents/>
+        <LocationOfComponents HRef="file:///\"/>
+    </OfficeDocumentSettings>
+    <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+        <WindowHeight>12525</WindowHeight>
+        <WindowWidth>15195</WindowWidth>
+        <WindowTopX>480</WindowTopX>
+        <WindowTopY>120</WindowTopY>
+        <ActiveSheet>0</ActiveSheet>
+        <ProtectStructure>False</ProtectStructure>
+        <ProtectWindows>False</ProtectWindows>
+    </ExcelWorkbook>
+    <Styles>
+        <Style ss:ID="Default" ss:Name="Normal">
+            <Alignment ss:Vertical="Bottom"/>
+            <Borders/>
+            <Font/>
+            <Interior/>
+            <NumberFormat/>
+            <Protection/>
+        </Style>
+        <Style ss:ID="bold">
+            <Font ss:Bold="1" />
+        </Style>
+        
+        <Style ss:ID="header">
+            <Interior ss:Pattern="Solid" ss:Color="#4F81BD" />
+<Font ss:Bold="1" ss:Size="12" ss:Color="#FFFFFF" />
+
+        </Style>
+        <Style ss:ID="body">
+            
+        </Style>
+    </Styles>
+<Worksheet ss:Name="Rigaku (DMAXB) DRX"><Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="47" x:FullColumns="1" x:FullRows="1">
+<Column ss:Index="1" ss:Width="150" />
+<Column ss:Index="2" ss:Width="150" />
+<Column ss:Index="3" ss:Width="150" />
+<Column ss:Index="4" ss:Width="150" />
+<Column ss:Index="5" ss:Width="150" />
+<Column ss:Index="6" ss:Width="150" />
+<Column ss:Index="7" ss:Width="150" />
+<Column ss:Index="8" ss:Width="150" />
+<Column ss:Index="9" ss:Width="150" />
+<Column ss:Index="10" ss:Width="150" />
+<Column ss:Index="11" ss:Width="150" />
+<Column ss:Index="12" ss:Width="150" />
+<Column ss:Index="13" ss:Width="150" />
+<Column ss:Index="14" ss:Width="150" />
+<Column ss:Index="15" ss:Width="150" />
+<Row>
+<Cell ss:StyleID="header" ss:MergeAcross="14"><Data ss:Type="String">Rigaku (DMAXB) DRX</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Data</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Arquivo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Laborat&oacute;rio/Grupo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Orientador</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Email</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Aluno</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Email</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">IC/Msc/Dr/Pesq/T&eacute;cn</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amostra</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">2Thetai</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Passo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">2Thetaf</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Velocidade (&#186;/min)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Tempo medida (min)</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Alvo</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">14/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00378</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">GQMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pierre Basílio Almeida Fechine</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">fechine@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo George Cavalcante de Freitas</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">paul_atm@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">MnZnFe  A-E(0.8-0.2)</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">01/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00374</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">GQMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pierre Basílio Almeida Fechine</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">fechine@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo George Cavalcante de Freitas</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">paul_atm@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">MnZnFeO - EG (02/08)</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">01/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00373</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">GQMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pierre Basílio Almeida Fechine</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">fechine@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo George Cavalcante de Freitas</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">paul_atm@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">MnZnFeO - EG</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">16/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00380</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LADEMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Ricardo Emílio Ferreira Quevedo Nogueira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">emilio@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo Demetrios da Silva Lima</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">engpaulolima@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">31MgAl21</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">01/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00371</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">GQMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pierre Basílio Almeida Fechine</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">fechine@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo George Cavalcante de Freitas</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">paul_atm@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LiFeO</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">14/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a003375</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">GQMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pierre Basílio Almeida Fechine</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">fechine@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo George Cavalcante de Freitas</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">paul_atm@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">MnZnFe  A-E(0.6-0.4)</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">01/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00372</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">GQMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pierre Basílio Almeida Fechine</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">fechine@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo George Cavalcante de Freitas</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">paul_atm@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LiFeO400</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">14/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a003376</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">GQMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pierre Basílio Almeida Fechine</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">fechine@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo George Cavalcante de Freitas</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">paul_atm@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">MnZnFe  A-E(0.4-0.6)</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">16/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00379</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LADEMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Ricardo Emílio Ferreira Quevedo Nogueira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">emilio@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo Demetrios da Silva Lima</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">engpaulolima@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">31MgAl14</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">06/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00367</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LADEMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Ricardo Emílio Ferreira Quevedo Nogueira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">emilio@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo Demetrios da Silva Lima</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">engpaulolima@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">31MgAl2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">06/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00368</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LADEMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Ricardo Emílio Ferreira Quevedo Nogueira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">emilio@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo Demetrios da Silva Lima</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">engpaulolima@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">31MgAl4</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">06/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00369</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LADEMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Ricardo Emílio Ferreira Quevedo Nogueira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">emilio@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo Demetrios da Silva Lima</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">engpaulolima@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">31MgAl7</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">06/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00370</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LADEMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Ricardo Emílio Ferreira Quevedo Nogueira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">emilio@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo Demetrios da Silva Lima</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">engpaulolima@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">31MgAl72</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">16/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00381</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LADEMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Ricardo Emílio Ferreira Quevedo Nogueira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">emilio@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo Demetrios da Silva Lima</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">engpaulolima@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">31ZnAl2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">16/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00382</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LADEMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Ricardo Emílio Ferreira Quevedo Nogueira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">emilio@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo Demetrios da Silva Lima</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">engpaulolima@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">31ZnAl4</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">16/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00383</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LADEMAT</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Ricardo Emílio Ferreira Quevedo Nogueira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">emilio@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Paulo Demetrios da Silva Lima</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">engpaulolima@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">31ZnAl7</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">21/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00377</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Eletroquimica e Corrosão Microbiana</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Rui Carlos Barros da Silva</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">lecom@uece.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Israel Freitas Bezerra</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">israelbezerra.mcfa@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ZnO8</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">50</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">90</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00386</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Elenilza Nascimento Gomes</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ellengeologia@yahoo.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A16 C</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00385</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Elenilza Nascimento Gomes</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ellengeologia@yahoo.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A12 R</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00384</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Elenilza Nascimento Gomes</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ellengeologia@yahoo.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A12 P</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00399</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Daniel Dantas Moreira Gomes</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">daniel.dm.gomes@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IP-10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">90</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00400</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Daniel Dantas Moreira Gomes</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">daniel.dm.gomes@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IP-13 </Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">90</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00401</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Daniel Dantas Moreira Gomes</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">daniel.dm.gomes@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Espec </Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00402</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Daniel Dantas Moreira Gomes</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">daniel.dm.gomes@gmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">SF Lab-b</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00387</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Elenilza Nascimento Gomes</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ellengeologia@yahoo.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A16 P</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00390</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Wolfman Weber Pongitori Soares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">weberpongitori@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A6 C</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00391</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Wolfman Weber Pongitori Soares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">weberpongitori@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A6 P</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00388</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Wolfman Weber Pongitori Soares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">weberpongitori@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A1 R</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00389</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Wolfman Weber Pongitori Soares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">weberpongitori@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">IC</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A 1 V</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">70</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00394</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Jefferson Lima dos Santos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">jeffgeologia@yahoo.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A13 F2 E</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">76</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00396</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Jefferson Lima dos Santos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">jeffgeologia@yahoo.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A13F2V</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">80</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00397</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Jefferson Lima dos Santos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">jeffgeologia@yahoo.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A7a2f1f</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">80</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00414</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Jefferson Lima dos Santos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">jeffgeologia@yahoo.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A7A2F2G</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">80</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00406</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Vanusa Antonia Castelo Barbosa</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">vanusacastello@ig.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">80</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00407</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Vanusa Antonia Castelo Barbosa</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">vanusacastello@ig.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A21</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">80</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00409</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Vanusa Antonia Castelo Barbosa</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">vanusacastello@ig.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A17</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">84</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00408</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Vanusa Antonia Castelo Barbosa</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">vanusacastello@ig.com.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A2LB03LS</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">80</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00410</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Clistenes Teixeira Batista</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">clisbat@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">SR05Matriz</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">82</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00411</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Clistenes Teixeira Batista</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">clisbat@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">SR05Rosada</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">80</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00412</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Clistenes Teixeira Batista</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">clisbat@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A1A1V</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">82</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00413</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">LAGETEC E LAMIN</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cesar Ulisses Vieira Veríssimo</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">verissimo@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Clistenes Teixeira Batista</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">clisbat@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">A1A1P</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">5</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">83</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00403</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Mössbauer</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Igor Frota de Vasconcelos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ifvasco@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Francisco Iran Sousa da Silva</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">fi.silva@metalmat.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">FeCr 30min</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">20</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00404</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Mössbauer</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Igor Frota de Vasconcelos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ifvasco@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Francisco Iran Sousa da Silva</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">fi.silva@metalmat.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">FeCr 1h</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">20</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">22/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00405</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Mössbauer</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Igor Frota de Vasconcelos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ifvasco@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Francisco Iran Sousa da Silva</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">fi.silva@metalmat.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">FeCr 2h</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">20</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">120</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">14/09/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">a00417</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">langmuir</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Alcineia Conceição Oliveira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">alcineia@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Francisco de Assis Araújo Barros</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">rabino80@hotmail.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Msc</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">CrLaAl</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">10</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">80</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">1/1</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">-</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Cu</Data></Cell>
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+        <ProtectObjects>False</ProtectObjects>
+        <ProtectScenarios>False</ProtectScenarios>
+        </WorksheetOptions>
+        </Worksheet>
+</Workbook>

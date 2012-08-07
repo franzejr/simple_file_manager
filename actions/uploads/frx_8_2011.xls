@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+    <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+        <DownloadComponents/>
+        <LocationOfComponents HRef="file:///\"/>
+    </OfficeDocumentSettings>
+    <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+        <WindowHeight>12525</WindowHeight>
+        <WindowWidth>15195</WindowWidth>
+        <WindowTopX>480</WindowTopX>
+        <WindowTopY>120</WindowTopY>
+        <ActiveSheet>0</ActiveSheet>
+        <ProtectStructure>False</ProtectStructure>
+        <ProtectWindows>False</ProtectWindows>
+    </ExcelWorkbook>
+    <Styles>
+        <Style ss:ID="Default" ss:Name="Normal">
+            <Alignment ss:Vertical="Bottom"/>
+            <Borders/>
+            <Font/>
+            <Interior/>
+            <NumberFormat/>
+            <Protection/>
+        </Style>
+        <Style ss:ID="bold">
+            <Font ss:Bold="1" />
+        </Style>
+        
+        <Style ss:ID="header">
+            <Interior ss:Pattern="Solid" ss:Color="#4F81BD" />
+<Font ss:Bold="1" ss:Size="12" ss:Color="#FFFFFF" />
+
+        </Style>
+        <Style ss:ID="body">
+            
+        </Style>
+    </Styles>
+<Worksheet ss:Name="Rigaku (ZSX-Mini) FRX"><Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="21" x:FullColumns="1" x:FullRows="1">
+<Column ss:Index="1" ss:Width="150" />
+<Column ss:Index="2" ss:Width="150" />
+<Column ss:Index="3" ss:Width="150" />
+<Column ss:Index="4" ss:Width="150" />
+<Column ss:Index="5" ss:Width="150" />
+<Column ss:Index="6" ss:Width="150" />
+<Column ss:Index="7" ss:Width="150" />
+<Column ss:Index="8" ss:Width="150" />
+<Column ss:Index="9" ss:Width="150" />
+<Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Rigaku (ZSX-Mini) FRX</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Data</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Arquivo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Laborat&oacute;rio/Grupo</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Orientador</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Email</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Aluno</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Email</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">IC/Msc/Dr/Pesq/T&eacute;cn</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Amostra</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">15/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pedologia</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">BAC1 Cv</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">15/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pedologia</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">BAC2 Bt2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">15/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pedologia</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">BAC2 Btv</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">15/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pedologia</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">BAC3 2Cv</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">15/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pedologia</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">BAC4 C2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">15/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Espectroscopia Raman</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">João Hermínio da Silva</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">herminio@fisica.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">João hermínio da Silva</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">herminio@fisica.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">andu grão verde</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">15/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Espectroscopia Raman</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">João Hermínio da Silva</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">herminio@fisica.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">João hermínio da Silva</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">herminio@fisica.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Andu grão maduro</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">23/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Mössbauer</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Igor Frota de Vasconcelos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ifvasco@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Thiago Soares Ribeiro</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ts.ribeiro@metalmat.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">SnFe</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">23/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Mössbauer</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Igor Frota de Vasconcelos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ifvasco@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Thiago Soares Ribeiro</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ts.ribeiro@metalmat.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">SnMn</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">23/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Mössbauer</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Igor Frota de Vasconcelos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ifvasco@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Thiago Soares Ribeiro</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ts.ribeiro@metalmat.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">InFe</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">23/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Mössbauer</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Igor Frota de Vasconcelos</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ifvasco@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Thiago Soares Ribeiro</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">ts.ribeiro@metalmat.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Dr</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">InMn</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">24/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pedologia</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">BAC1 Cv areia</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">24/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pedologia</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">BAC2 Bt2 areia</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">24/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pedologia</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">BAC2 Btv areia</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">24/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pedologia</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">BAC3 2Cv areia</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">24/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pedologia</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Gustavo Souza Valladares</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">valladares@ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">BAC4 C2 areia</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">29/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">GRUPO DE PESQUISA EM SEPARAÇOES POR ADSO</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Rodrigo Silveira Vieira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">rodrigo@gpsa.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Rodrigo Silveira Vieira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">rodrigo@gpsa.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">2</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">29/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">GRUPO DE PESQUISA EM SEPARAÇOES POR ADSO</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Rodrigo Silveira Vieira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">rodrigo@gpsa.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Rodrigo Silveira Vieira</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">rodrigo@gpsa.ufc.br</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="Number">4</Data></Cell>
+</Row>
+<Row>
+<Cell ss:StyleID="body"><Data ss:Type="String">30/08/11</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String"></Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Laboratório de Química</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Érika Pinto Marinho</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">marinhoerika@yahoo.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Érika Pinto Marinho</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">marinhoerika@yahoo.com</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Pesq</Data></Cell>
+<Cell ss:StyleID="body"><Data ss:Type="String">Metacaulim</Data></Cell>
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+        <ProtectObjects>False</ProtectObjects>
+        <ProtectScenarios>False</ProtectScenarios>
+        </WorksheetOptions>
+        </Worksheet>
+</Workbook>

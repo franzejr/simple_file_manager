@@ -5,7 +5,7 @@
 include_once("../banco/conecta.php");
 class ArquivoDAO{
 
-	function insert($arquivo)
+	function insert($nome,$caminho,$user,$descricao)
 	{
 			try{
 				$query = "INSERT INTO usuario (nome,caminho,user,descricao) VALUES ('$arquivo->_nome','$arquivo->_caminho','$arquivo->_user','$arquivo->_descricao')";

@@ -1,3 +1,60 @@
+<script type="text/javascript">
+
+/*Requisicoes Ajax */
+
+//Funcao de inicializacao para saber o cookie
+function init() {
+	setContraste();
+	increaseFontSize(Cookies['letra']);
+}
+
+window.onload = init; 
+
+var myRequest = new XMLHttpRequest();
+  function callAjax1() {
+  	var url = "arquivos.json";
+  	
+	 myRequest.open("GET", url, true);
+	 myRequest.onreadystatechange = responseAjax;
+	 myRequest.setRequestHeader("Cache-Control", "no-cache");
+	 myRequest.send(null);
+  }
+
+  function callAjax2() {
+  	var url = "http://localhost/~franzejr/devWeb/trabalho2/webservice/arquivos.php?format=json";
+  	
+	 myRequest.open("GET", url, true);
+	 myRequest.onreadystatechange = responseAjax;
+	 myRequest.setRequestHeader("Cache-Control", "no-cache");
+	 myRequest.send(null);
+  }
+
+  function responseAjax() {
+	 if(myRequest.readyState == 4) {
+	    if(myRequest.status == 200) {
+	        result = myRequest.responseText;
+	        //alert(result);
+	        //console.log(result);
+	        var json = JSON.parse(result);
+	        //document.getElementById('resultado').innerHTML = json.arquivos.arquivo[0].nome;
+	        //writeLine(result);
+	        startListagem();
+	         for(var i = 0; i < json.length; i++){
+	        	writeLine(json[i].arquivo.nome,json[i].arquivo.caminho);
+	        }
+	       	endListagem();
+	        
+	        console.log("we made it");
+	    } else {
+	        console.log( " An error has occurred: " + myRequest.statusText);
+	    }
+	 }
+  }
+ 
+</script>
+
+
+
 <div id="botoes">
 	<button onClick="increaseFontSize(1)" >Aumentar Letra </button>
 	<button onClick="increaseFontSize(-1)" >Diminuir Letra </button>

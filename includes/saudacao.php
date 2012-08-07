@@ -9,5 +9,6 @@
 	if (($hora_do_dia >12) && ($hora_do_dia <=18)) echo "Boa Tarde!";
 	if (($hora_do_dia >18) && ($hora_do_dia <=24)) echo "Boa Noite!";
 	if (($hora_do_dia >24) && ($hora_do_dia <6)) echo "Boa Madrugada!";
+	echo"<br/>". $_SESSION['nome'];
 
 ?>

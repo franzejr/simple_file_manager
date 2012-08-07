@@ -14,6 +14,7 @@ if(mysql_num_rows($sql)==0){
 	$_SESSION['status'] = "usuario";
 	$_SESSION['nome'] = mysql_result($sql, 0, "nome");
 	$_SESSION['email'] = mysql_result($sql, 0, "email");
+	$_SESSION['usuario'] = mysql_result($sql, 0, "usuario");
 	redirect("../index.php");
 }
 

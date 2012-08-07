@@ -98,6 +98,10 @@
 <body>
 <div id="headerWrapper">
 	<h1>Gerenciamento de Arquivos</h1>
+	<ul>
+		<li><a href="layoutA.php">Layout A</a></li>
+		<li><a href="layoutB.php">Layout B</a></li>
+	</ul>
 </div>
 
 <div id="contentWrapper">

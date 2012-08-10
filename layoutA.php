@@ -30,8 +30,9 @@
 	  	listagem.innerHTML += "</ul>";
 	  }
 
-	  function writeLine(nome, link){
-
+	  function writeLine(nome, id_arquivo){
+		var id_usu = <?=$_SESSION['id_usu'];?>;
+		var link_action = "actions/action_visualizar_arquivo.php?id_usu="+id_usu+"&id_arq=";
 	  	var listagem = document.getElementById('listagem');
 		var li_node = document.createElement('li');
 		li_node.innerHTML += "<span class='icon'></span>"
@@ -40,7 +41,9 @@
 		  	var link_node = document.createElement('a');
 		  	var tn = document.createTextNode(nome);
 			link_node.appendChild(tn);
-		  	link_node.setAttribute("href",link);
+			link_action += id_arquivo;
+		  	link_node.setAttribute("href",link_action);
+
 
 		li_node.appendChild(link_node);
 

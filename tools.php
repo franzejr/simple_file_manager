@@ -13,3 +13,5 @@ function alert($error)
     {
 ?><script language='javascript'>alert('<?=$error?>')</script>
 <?php     }
+
+

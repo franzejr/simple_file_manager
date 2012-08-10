@@ -4,7 +4,6 @@
 	include ("../tools.php");
 	include ("../dao/usuarioDAO.php");
 
-
 	//Pegando dados da Requisicao
 
 	$titulo = $_POST["titulo"];

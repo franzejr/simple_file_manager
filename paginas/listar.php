@@ -7,6 +7,10 @@ function init() {
 	setContraste();
 	increaseFontSize(Cookies['letra']);
 }
+function addDownload(nome,link){
+	alert("ehuaheuah");
+	location.href="actions/confirma_download.php?nome=" + nome+"&link="+link;
+}
 
 window.onload = init; 
 
@@ -40,7 +44,7 @@ var myRequest = new XMLHttpRequest();
 	        //writeLine(result);
 	        startListagem();
 	         for(var i = 0; i < json.length; i++){
-	        	writeLine(json[i].arquivo.nome,json[i].arquivo.caminho);
+	        	writeLine(json[i].arquivo.nome,json[i].arquivo.id_arq);
 	        }
 	       	endListagem();
 	        

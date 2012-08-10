@@ -13,6 +13,7 @@ if(mysql_num_rows($sql)==0){
 	mensagem("Logado com sucesso!");
 	$_SESSION['status'] = "usuario";
 	$_SESSION['nome'] = mysql_result($sql, 0, "nome");
+	$_SESSION['id_usu'] = mysql_result($sql, 0, "id_usu");
 	$_SESSION['email'] = mysql_result($sql, 0, "email");
 	$_SESSION['usuario'] = mysql_result($sql, 0, "usuario");
 	redirect("../index.php");

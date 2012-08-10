@@ -1,0 +1,66 @@
+	AM02 F11-085	2012- 2-17 15:48	12	1
+	Al2O3	mass%	113	17.450
+	SiO2	mass%	114	61.055
+	P2O5	mass%	115	0.3411
+	Cl	mass%	17	0.3336
+	K2O	mass%	119	5.3080
+	CaO	mass%	120	2.0499
+	TiO2	mass%	122	1.7396
+	MnO	mass%	125	0.1468
+	Fe2O3	mass%	126	11.483
+	ZnO	mass%	130	0.0308
+	Rb2O	mass%	137	0.0264
+	SrO	mass%	138	0.0354
+	AM01 F11-085	2012- 2-17 16:21	12	1
+	Al2O3	mass%	113	19.094
+	SiO2	mass%	114	58.713
+	P2O5	mass%	115	0.3771
+	Cl	mass%	17	0.1912
+	K2O	mass%	119	4.8512
+	CaO	mass%	120	1.8497
+	TiO2	mass%	122	1.4952
+	MnO	mass%	125	0.2023
+	Fe2O3	mass%	126	13.101
+	ZnO	mass%	130	0.0394
+	Rb2O	mass%	137	0.0404
+	SrO	mass%	138	0.0454
+	AM03 F10-085	2012- 2-17 16:52	13	1
+	Al2O3	mass%	113	15.203
+	SiO2	mass%	114	63.385
+	P2O5	mass%	115	0.3888
+	Cl	mass%	17	0.1715
+	K2O	mass%	119	5.8815
+	CaO	mass%	120	2.7885
+	TiO2	mass%	122	1.4982
+	MnO	mass%	125	0.1368
+	Fe2O3	mass%	126	10.025
+	Rb2O	mass%	137	0.0369
+	SrO	mass%	138	0.0645
+	ZrO2	mass%	140	0.2935
+	Ag2O	mass%	147	0.1269
+	AM02 F10-085	2012- 2-17 17:23	13	1
+	MgO	mass%	112	1.4714
+	Al2O3	mass%	113	17.772
+	SiO2	mass%	114	59.050
+	P2O5	mass%	115	0.4473
+	Cl	mass%	17	0.1609
+	K2O	mass%	119	4.7253
+	CaO	mass%	120	1.8930
+	TiO2	mass%	122	1.7084
+	MnO	mass%	125	0.2540
+	Fe2O3	mass%	126	12.449
+	ZnO	mass%	130	0.0263
+	Rb2O	mass%	137	0.0198
+	SrO	mass%	138	0.0224
+	AM01 F10-085	2012- 2-23 11:50	11	1
+	Al2O3	mass%	113	21.274
+	SiO2	mass%	114	55.515
+	Cl	mass%	17	0.1338
+	K2O	mass%	119	4.3350
+	CaO	mass%	120	2.2089
+	TiO2	mass%	122	1.5879
+	MnO	mass%	125	0.1733
+	Fe2O3	mass%	126	14.632
+	Co2O3	mass%	127	0.0572
+	Rb2O	mass%	137	0.0457
+	SrO	mass%	138	0.0368

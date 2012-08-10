@@ -22,11 +22,15 @@ if(mysql_num_rows($sql)==0){
 	<tbody>
 <?php 
 	for($i=0;$i<mysql_num_rows($sql);$i++){
+		$nome = mysql_result($sql, $i, "nome");
+		$id_arq = mysql_result($sql,$i,"id_arq");
+		$descricao = mysql_result($sql,$i,"descricao");
+		$caminho = mysql_result($sql, $i, "caminho");
 ?>
 	<tr>
-		<td style="text-align:left;"><a href="<?=mysql_result($sql, $i, "caminho"); ?>"><?=mysql_result($sql, $i, "nome"); ?></a></td>
-		<td style="text-align:left;"><?=mysql_result($sql, $i, "descricao"); ?></td>
-		<td width=10%;><a href="index.php?pag=alterar_categoria&id_arq=<?=mysql_result($sql,$i,"id_arq");?>"><img border=0 src="images/alterar.png" /></a></td>
+		<td style="text-align:left;"><a href="<?=$caminho ?>"><?=$nome ?></a></td>
+		<td style="text-align:left;"><?=$descricao ?></td>
+		<td width=10%;><a href="layoutA.php?pag=alterar_arquivo&nome=<?=$nome?>&descricao=<?=$descricao?>&id_arq=<?=$id_arq?>"><img border=0 src="images/alterar.png" /></a></td>
 		<td><a href="#"><img border=0 src="images/excluir.png" onclick="deletar('<?=mysql_result($sql,$i,"descricao");?>','<?=mysql_result($sql,$i,"descricao");?>' );" /></a></td>
 	</tr>
 

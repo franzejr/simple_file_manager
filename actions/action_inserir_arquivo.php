@@ -1,10 +1,11 @@
 <?php
+include ("../banco/conecta.php");
 include ("../models/arquivo.php");
 include ("../dao/arquivoDAO.php");
 include ("../tools.php");
 //Pegando os dados da requisicao
 
-	$titulo = $_POST["titulo"];
+	$nome = $_POST["nome"];
 	$descricao = $_POST["descricao"];
 
 //Trabalhando com o Arquivo
@@ -15,7 +16,7 @@ include ("../tools.php");
   else
     {
 	echo "<h2>Dados do Arquivo</h2>";
-	echo "Titulo do Arquivo:" .$titulo. "<br />";
+	echo "Titulo do Arquivo:" .$nome. "<br />";
     echo "Nome: " . $_FILES["file"]["name"] . "<br />";
     echo "Tamanho: " . ($_FILES["file"]["size"] / 1024) . " Kb<br />";
     echo "Temp file: " . $_FILES["file"]["tmp_name"] . "<br />";
@@ -40,7 +41,7 @@ include ("../tools.php");
 	try{
 		echo "TARGET PATH: ".$target_path;
 		$novo_path = str_replace("../","",$target_path);
-		$query = "INSERT INTO arquivo (nome,caminho,user,descricao) VALUES ('$titulo','$novo_path',1,'$descricao')";
+		$query = "INSERT INTO arquivo (nome,caminho,user,descricao) VALUES ('$nome','$novo_path',1,'$descricao')";
 		$query_result = mysql_query($query) or die(mysql_error()); 
 		alert("Arquivo inserido com sucesso!");
 		redirect("../index.php");

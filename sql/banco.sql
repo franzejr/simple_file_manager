@@ -38,3 +38,10 @@ CREATE TABLE arq_cat (
 	CONSTRAINT fk_id_arq FOREIGN KEY (id_arq) REFERENCES arquivo(id_arq),
 	CONSTRAINT fk_id_cat FOREIGN KEY (id_cat) REFERENCES categoria(id_cat)
 ) ENGINE = InnoDB;
+
+CREATE TABLE download (
+	id_down INT AUTO_INCREMENT,
+	id_arq INT NOT NULL,
+	id_usu INT NOT NULL,
+	PRIMARY KEY (id_down)
+) ENGINE = InnoDB;

@@ -35,7 +35,7 @@
 			}
 		//Se um dos campos que queremos buscar foi escrito
 		if (  isset($_GET["nome"]) || isset($_GET["descricao"])  ) {
-			echo "Algumas Pesquisas foram encontradas";
+			echo "Algumas Pesquisas foram encontradas:";
 			
 			$nome = $_GET["nome"];
 			$descricao = $_GET["descricao"];
@@ -53,7 +53,7 @@
 			}
 
 			$sql = mysql_query($comando) or die(mysql_error());
-			echo var_dump($sql);
+			//echo var_dump($sql);
 			
 			echo "<ul>";
 			for($i=0;$i< mysql_num_rows($sql);$i++){

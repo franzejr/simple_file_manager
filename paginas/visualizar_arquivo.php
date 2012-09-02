@@ -7,7 +7,6 @@ function getParameter($var){
 ?>
 <link href='contact.css' rel='stylesheet' type='text/css' />
 <div id="contato">
-				<h2>Visualizando Arquivo</h2>
 			<div>
 				<div>
 					<h3>Título</h3>
@@ -26,6 +25,7 @@ function getParameter($var){
 				<div>
 					<h3>Descrição</h3>
 				</div>
-				<label>Descrição</label> <p> <?=getParameter('descricao');?></p>
+					<label>Descrição</label> 
+					<p> <?=getParameter('descricao');?></p>
 			</div>
 </div>

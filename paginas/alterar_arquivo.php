@@ -8,7 +8,7 @@ function getParameter($var){
 <link href='contact.css' rel='stylesheet' type='text/css' />
 <div id="contato">
 				<h2>Alterando um Arquivo</h2>
-	<form method="post" action="actions/action_inserir_arquivo.php" enctype="multipart/form-data">
+	<form method="post" action="actions/action_alterar_arquivo.php" enctype="multipart/form-data">
 			<div>
 				<div>
 					<h3>Título</h3>
@@ -20,8 +20,13 @@ function getParameter($var){
 				<div>
 					<h3>Arquivo</h3>
 				</div>
+				<div>
+				<a href="<?=getParameter('caminho');?>">Veja aqui seu arquivo atual</a>
+				
+				</div>
 				<input type="file" name="file" id="file" />
 				<small>Você pode alterar seu arquivo</small>
+				
 			</div>
 			
 			<div>

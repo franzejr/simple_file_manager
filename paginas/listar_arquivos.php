@@ -30,7 +30,7 @@ if(mysql_num_rows($sql)==0){
 	<tr>
 		<td style="text-align:left;"><a href="<?=$caminho ?>"><?=$nome ?></a></td>
 		<td style="text-align:left;"><?=$descricao ?></td>
-		<td width=10%;><a href="layoutA.php?pag=alterar_arquivo&nome=<?=$nome?>&descricao=<?=$descricao?>&id_arq=<?=$id_arq?>"><img border=0 src="images/alterar.png" /></a></td>
+		<td width=10%;><a href="layoutA.php?pag=alterar_arquivo&nome=<?=$nome?>&descricao=<?=$descricao?>&id_arq=<?=$id_arq?>&caminho=<?=$caminho?>"><img border=0 src="images/alterar.png" /></a></td>
 		<td><a href="#"><img border=0 src="images/excluir.png" onclick="deletar('<?=mysql_result($sql,$i,"descricao");?>','<?=mysql_result($sql,$i,"descricao");?>' );" /></a></td>
 	</tr>
 

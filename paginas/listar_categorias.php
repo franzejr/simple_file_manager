@@ -7,7 +7,7 @@ include("banco/conecta.php");
 <script language="JavaScript"  charset="UTF-8" src="../funcoes.js"></script>
 
 <?php 
-$sql = mysql_query("SELECT id_arq, nome, descricao,caminho FROM arquivo") or die(mysql_error());
+$sql = mysql_query("SELECT id_cat,nome, descricao FROM categoria") or die(mysql_error());
 if(mysql_num_rows($sql)==0){
 	echo "<p>Sem Arquivos Inseridos até o momento</p>";
 }else{
@@ -23,14 +23,13 @@ if(mysql_num_rows($sql)==0){
 <?php 
 	for($i=0;$i<mysql_num_rows($sql);$i++){
 		$nome = mysql_result($sql, $i, "nome");
-		$id_arq = mysql_result($sql,$i,"id_arq");
+		$id_cat = mysql_result($sql,$i,"id_cat");
 		$descricao = mysql_result($sql,$i,"descricao");
-		$caminho = mysql_result($sql, $i, "caminho");
 ?>
 	<tr>
-		<td style="text-align:left;"><a href="<?=$caminho ?>"><?=$nome ?></a></td>
+		<td style="text-align:left;"><?=$nome ?></td>
 		<td style="text-align:left;"><?=$descricao ?></td>
-		<td width=10%;><a href="index.php?pag=alterar_categoria&nome=<?=$nome?>&descricao=<?=$descricao?>"><img border=0 src="images/alterar.png" /></a></td>
+		<td width=10%;><a href="layoutA.php?pag=alterar_categoria&nome=<?=$nome?>&descricao=<?=$descricao?>&id_cat=<?=$id_cat?>"><img border=0 src="images/alterar.png" /></a></td>
 		<td><a href="#"><img border=0 src="images/excluir.png" onclick="deletar('<?=mysql_result($sql,$i,"descricao");?>','<?=mysql_result($sql,$i,"descricao");?>' );" /></a></td>
 	</tr>
 

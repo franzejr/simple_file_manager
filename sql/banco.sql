@@ -28,7 +28,8 @@ CREATE TABLE arquivo (
 
 CREATE TABLE categoria (
 	id_cat INT AUTO_INCREMENT,
-	nome VARCHAR(255),
+	nome VARCHAR(150),
+	descricao VARCHAR(255),
     PRIMARY KEY (id_cat)
 ) ENGINE = InnoDB;
 
@@ -45,3 +46,8 @@ CREATE TABLE download (
 	id_usu INT NOT NULL,
 	PRIMARY KEY (id_down)
 ) ENGINE = InnoDB;
+
+--Inserindo
+--Inserindo o usuario admin e usuario para ser testados pelo professor.
+insert into usuario(nome,apelido,email,endereco,usuario,senha) values('admin','admin','admin@localhost','Rua','admin','admin1234');
+insert into usuario(nome,apelido,email,endereco,usuario,senha) values('usuario','usuario','usuario@localhost','Rua','usuario','usuario1234');

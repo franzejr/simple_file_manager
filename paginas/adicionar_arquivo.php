@@ -11,6 +11,18 @@
 			
 			<div>
 				<div>
+					<h3>Categoria</h3>
+				</div>
+					<select name="categoria" id="categoria">
+						<option>sss</option>
+						<option>sss</option>
+						<option>sss</option>
+						<option>sss</option>
+					</select>
+			</div>
+			
+			<div>
+				<div>
 					<h3>Arquivo</h3>
 				</div>
 				<input type="file" name="file" id="file" />

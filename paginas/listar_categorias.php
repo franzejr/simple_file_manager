@@ -4,7 +4,7 @@
 //include("seg/admin.php");
 include("banco/conecta.php");
 ?>
-<script language="JavaScript"  charset="UTF-8" src="../funcoes.js"></script>
+<script language="JavaScript"  charset="UTF-8" src="funcoes.js"></script>
 
 <?php 
 $sql = mysql_query("SELECT id_cat,nome, descricao FROM categoria") or die(mysql_error());
@@ -30,7 +30,7 @@ if(mysql_num_rows($sql)==0){
 		<td style="text-align:left;"><?=$nome ?></td>
 		<td style="text-align:left;"><?=$descricao ?></td>
 		<td width=10%;><a href="layoutA.php?pag=alterar_categoria&nome=<?=$nome?>&descricao=<?=$descricao?>&id_cat=<?=$id_cat?>"><img border=0 src="images/alterar.png" /></a></td>
-		<td><a href="#"><img border=0 src="images/excluir.png" onclick="deletar('<?=mysql_result($sql,$i,"descricao");?>','<?=mysql_result($sql,$i,"descricao");?>' );" /></a></td>
+		<td><a href="#"><img border=0 src="images/excluir.png" onclick="deletarCategoria('<?=mysql_result($sql,$i,"id_cat");?>','<?=mysql_result($sql,$i,"nome");?>' );" /></a></td>
 	</tr>
 
 	<?php } ?>

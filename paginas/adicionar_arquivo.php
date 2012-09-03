@@ -1,7 +1,10 @@
+<?
+	include("banco/conecta.php");
+?>
 <link href='contact.css' rel='stylesheet' type='text/css' />
 <div id="contato">
 				<h2>Inserindo um Novo Arquivo</h2>
-	<form method="post" action="actions/action_inserir_arquivo.php" enctype="multipart/form-data">
+	<form method="post" action="actions/action_inserir_arquivo.php" enctype="multipart/form-data" accept-charset="UTF-8">
 			<div>
 				<div>
 					<h3>Título</h3>
@@ -13,14 +16,17 @@
 				<div>
 					<h3>Categoria</h3>
 				</div>
-					<select name="categoria" id="categoria">
-						<option>sss</option>
-						<option>sss</option>
-						<option>sss</option>
-						<option>sss</option>
+					<select name="categoria" id="categoria">				
+				<?
+					$sql = mysql_query("SELECT id_cat, nome FROM categoria") or die(mysql_error());
+					for($i=0;$i<mysql_num_rows($sql);$i++){
+						$nome = mysql_result($sql, $i, "nome");
+						$id_cat = mysql_result($sql,$i,"id_cat");
+				?>
+						<option><?=$id_cat?>-<?=$nome?></option>
+					<? } ?>
 					</select>
 			</div>
-			
 			<div>
 				<div>
 					<h3>Arquivo</h3>

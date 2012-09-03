@@ -35,7 +35,7 @@ function getParameter($var){
 				</div>
 				<textarea rows="10" name="descricao" id="descricao" ><?=getParameter('descricao');?></textarea>
 			</div>
-			<input type="hidden" id="id_arq" name="id_arq">
+			<input type="hidden" id="id_arq" name="id_arq" value="<?=getParameter('id_arq');?>" />
 		<input type="submit" value="Inserir Arquivo" />
 	</form>
 </div>

@@ -1,3 +1,6 @@
+<?
+	include("banco/conecta.php");
+?>
 <script type="text/javascript">
 
 /*Requisicoes Ajax */
@@ -25,7 +28,10 @@ var myRequest = new XMLHttpRequest();
   }
 
   function callAjax2() {
-  	var url = "http://localhost/~franzejr/devWeb/trabalho2/webservice/arquivos.php?format=json";
+	var categoria_vet = document.getElementById("categoria").value;
+	var id_cat = categoria_vet[0];
+	
+  	var url = "http://localhost/~franzejr/devWeb/trabalho2/webservice/arquivos.php?format=json"+"&id_cat="+id_cat;
   	
 	 myRequest.open("GET", url, true);
 	 myRequest.onreadystatechange = responseAjax;
@@ -61,8 +67,20 @@ var myRequest = new XMLHttpRequest();
 
 <div id="botoes">
 
-	<button onClick="callAjax1()" >Carregar Arquivos Cat X </button>
-	<button onClick="callAjax2()" >Carregar Arquivos Cat Y </button>
+	<!--<button onClick="callAjax1()" >Carregar Arquivos Cat X </button>
+	<button onClick="callAjax2()" >Carregar Arquivos Cat Y </button>-->
+	
+	<select name="categoria" id="categoria">				
+<?
+	$sql = mysql_query("SELECT id_cat, nome FROM categoria") or die(mysql_error());
+	for($i=0;$i<mysql_num_rows($sql);$i++){
+		$nome = mysql_result($sql, $i, "nome");
+		$id_cat = mysql_result($sql,$i,"id_cat");
+?>
+		<option><?=$id_cat?>-<?=$nome?></option>
+	<? } ?>
+	</select>
+	<button onClick="callAjax2();">Buscar</button>
 </div>
 
 

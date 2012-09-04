@@ -25,7 +25,19 @@
 	/*Configuracoes do webservice */
 
 	$format = strtolower($_GET['format']) == 'json' ? 'json' : 'xml'; 
-	$result = mysql_query("SELECT * FROM arquivo");
+	$id_cat = strtolower($_GET['id_cat']);
+	
+	if (!isset( $_GET["format"]) && !isset( $_GET["id_cat"]) ) {
+    		echo "Por favor, coloque algo para pesquisar.";
+		}
+		
+	if (isset( $_GET["format"]) && !isset( $_GET["id_cat"]) ) {
+    		$result = mysql_query("SELECT * FROM arquivo");
+		}
+		
+	if (isset( $_GET["format"]) && isset( $_GET["id_cat"]) ) {
+    		$result = mysql_query("SELECT * FROM arquivo a, arq_cat ac where a.id_arq = ac.id_arq and ac.id_cat=$id_cat ");
+		}
 	
 	$arquivos = array();
 	  if(mysql_num_rows($result) != 0) {

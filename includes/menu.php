@@ -5,7 +5,7 @@
 			<div id="saudacao">
 			</div>
 			<li><a href="seg/logoff.php">Logoff</a></li></li>
-			<li><a href="#">Home</a></li>
+			<li><a href="index.php">Home</a></li>
 			<li><a href="?pag=perfil">Meu Perfil</a></li>
 			<li><a href="?pag=arquivo">Arquivos</a></li>
 			<li><a href="?pag=categoria">Categorias</a></li>

@@ -9,3 +9,8 @@
 <h2>Últimos Downloads Visualizados</h2>
 	<a href="actions/action_deletar_download.php?id_usu=<?=$_SESSION['id_usu'];?>">Deletar toda Lista</a>
 	<?php include("ultimos_downloads.php"); ?>
+
+<br/><br/>
+<h2>Arquivos favoritos</h2>
+	<a href="actions/action_deletar_favorito.php?id_usu=<?=$_SESSION['id_usu'];?>">Deletar toda Lista</a>
+	<?php include("favoritos.php"); ?>

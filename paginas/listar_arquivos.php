@@ -16,6 +16,7 @@ if(mysql_num_rows($sql)==0){
 	<tr style="border-bottom:10px solid #000;">
 		<th width="10%">Nome</th>
 		<th width="30%">Descrição</th>
+		<th width="7%">Favoritar</th>
 		<th width="7%">Alterar</th>
 		<th width="7%">Excluir</th>
 	</tr>
@@ -26,10 +27,12 @@ if(mysql_num_rows($sql)==0){
 		$id_arq = mysql_result($sql,$i,"id_arq");
 		$descricao = mysql_result($sql,$i,"descricao");
 		$caminho = mysql_result($sql, $i, "caminho");
+		$id_usu = $_SESSION['id_usu'];
 ?>
 	<tr>
 		<td style="text-align:left;"><a href="<?=$caminho ?>"><?=$nome ?></a></td>
 		<td style="text-align:left;"><?=$descricao ?></td>
+				<td width=10%;><a onclick="adicionarFavorito('<?=mysql_result($sql,$i,"id_arq");?>','<?=mysql_result($sql,$i,"nome");?>','<?=$id_usu?>' );"><img border=0 src="images/starred.png" /></a></td>
 		<td width=10%;><a href="layoutA.php?pag=alterar_arquivo&nome=<?=$nome?>&descricao=<?=$descricao?>&id_arq=<?=$id_arq?>&caminho=<?=$caminho?>"><img border=0 src="images/alterar.png" /></a></td>
 		<td><a href="#"><img border=0 src="images/excluir.png" onclick="deletarArquivo('<?=mysql_result($sql,$i,"id_arq");?>','<?=mysql_result($sql,$i,"nome");?>' );" /></a></td>
 	</tr>

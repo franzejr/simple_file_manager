@@ -47,6 +47,13 @@ CREATE TABLE download (
 	PRIMARY KEY (id_down)
 ) ENGINE = InnoDB;
 
+CREATE TABLE favorito (
+	id_fav INT AUTO_INCREMENT,
+	id_arq INT NOT NULL,
+	id_usu INT NOT NULL,
+	PRIMARY KEY (id_fav)
+) ENGINE = InnoDB;
+
 --Inserindo
 --Inserindo o usuario admin e usuario para ser testados pelo professor.
 insert into usuario(nome,apelido,email,endereco,usuario,senha) values('admin','admin','admin@localhost','Rua','admin','admin1234');

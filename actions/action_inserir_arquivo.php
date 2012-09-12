@@ -16,14 +16,14 @@ include ("../tools.php");
 	//echo "<h1>ID FOI $id_usu</h1>";
 	
 	$sql_cat = mysql_query("select id_cat from categoria where id_cat='$id_cat'") or die(mysql_error());
-	echo $sql_cat;
+	//echo $sql_cat;
 	$id_categoria = mysql_result($sql_arq, 1, "id_cat");
 	
 	
 //Trabalhando com o Arquivo
   if ($_FILES["file"]["error"] > 0)
     {
-    echo "Codigo do Erro: " . $_FILES["file"]["error"] . "<br />";
+    //echo "Codigo do Erro: " . $_FILES["file"]["error"] . "<br />";
     }
   else
     {

@@ -11,7 +11,7 @@
 
 	
 	$query = "insert into categoria (nome, descricao) values('$nome','$descricao')";
-	echo $query;
+	//echo $query;
 	try{
 		$query_result = mysql_query($query) or die(mysql_error()); 
 		alert("Categoria cadastrada com sucesso!");

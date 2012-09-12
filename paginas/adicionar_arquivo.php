@@ -32,6 +32,7 @@
 					<h3>Arquivo</h3>
 				</div>
 				<input type="file" name="file" id="file" />
+				<input type="hidden" name="id_usu" id="id_usu" value="<?=$_SESSION['id_usu']?>" />
 			</div>
 			
 			<div>

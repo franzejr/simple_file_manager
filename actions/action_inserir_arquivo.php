@@ -9,8 +9,11 @@ include ("../tools.php");
 	$nome = $_POST["nome"];
 	$descricao = $_POST["descricao"];
 	$categoria = $_POST["categoria"];
+	$id_usu = $_POST['id_usu'];
+	
 
-	echo "<h1>ID FOI $id_cat</h1>";
+	//echo "<h1>ID FOI $id_cat</h1>";
+	//echo "<h1>ID FOI $id_usu</h1>";
 	
 	$sql_cat = mysql_query("select id_cat from categoria where id_cat='$id_cat'") or die(mysql_error());
 	echo $sql_cat;
@@ -50,7 +53,7 @@ include ("../tools.php");
 	try{
 		echo "TARGET PATH: ".$target_path;
 		$novo_path = str_replace("../","",$target_path);
-		$query = "INSERT INTO arquivo (nome,caminho,user,descricao) VALUES ('$nome','$novo_path',1,'$descricao')";
+		$query = "INSERT INTO arquivo (nome,caminho,user,descricao) VALUES ('$nome','$novo_path',$id_usu,'$descricao')";
 		$query_result = mysql_query($query) or die(mysql_error()); 
 		
 		//Pegando o id do arquivo
